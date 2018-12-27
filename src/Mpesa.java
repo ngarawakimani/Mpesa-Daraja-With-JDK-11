@@ -20,6 +20,9 @@ public class Mpesa {
 
     securityCredentials = new PasswordUtil().encryptInitiatorPassword("src/cert.cer","xxxxxxxx");
 
-    System.out.println(securityCredentials);
+    makeB2CRequest = new B2CRequest().makeRequest("testapi",securityCredentials,"BusinessPayment","10","600332","254724088765","comments","http://ngara.co.ke/mpesa","http://ngara.co.ke/mpesa","http://ngara.co.ke/mpesa");
+
+    System.out.println(makeB2CRequest);
   }
+
 }
