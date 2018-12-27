@@ -1,8 +1,16 @@
+import authentication.Authentication;
+
+import java.io.IOException;
+
 public class Mpesa {
 
-  public static void main(String [] args) {
+  private static String accessToken;
 
-    new Authentication();
+  public static void main(String [] args) throws IOException, InterruptedException {
+
+    accessToken = new Authentication().getAccessToken();
+
+    System.out.println(accessToken);
 
   }
 }
