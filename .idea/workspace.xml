@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0cab291-f027-4abc-887c-aedf4fa64502" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/MpesaAPIS/B2BRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/mpesa_jdk11/Mpesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/mpesa_jdk11/Mpesa.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Mpesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Mpesa.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MpesaAPIS/B2CRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MpesaAPIS/B2CRequest.java" afterDir="false" />
     </list>
@@ -18,8 +20,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Mpesa.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="125" selection-start-line="22" selection-start-column="125" selection-end-line="22" selection-end-column="125" />
+            <state relative-caret-position="261">
+              <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,8 +44,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/authentication/Authentication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="51">
               <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/MpesaAPIS/B2BRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="69" selection-end-column="79" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -51,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MpesaAPIS/B2CRequest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+            <state relative-caret-position="51">
+              <caret line="60" column="66" lean-forward="true" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,6 +96,7 @@
         <option value="$PROJECT_DIR$/src/authentication/SecurityCredentials.java" />
         <option value="$PROJECT_DIR$/src/authentication/PasswordUtil.java" />
         <option value="$PROJECT_DIR$/src/MpesaAPIS/B2CRequest.java" />
+        <option value="$PROJECT_DIR$/src/MpesaAPIS/B2BRequest.java" />
         <option value="$PROJECT_DIR$/src/Mpesa.java" />
       </list>
     </option>
@@ -114,7 +129,7 @@
               <item name="mpesa_jdk11" type="b2602c69:ProjectViewProjectNode" />
               <item name="mpesa_jdk11" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
+              <item name="MpesaAPIS" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mpesa_jdk11" type="b2602c69:ProjectViewProjectNode" />
@@ -135,7 +150,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545909957935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546192984173" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="C:/Program Files/nodejs/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -187,7 +202,7 @@
       <updated>1545763521831</updated>
       <workItem from="1545763530120" duration="13085000" />
       <workItem from="1545893465398" duration="1719000" />
-      <workItem from="1545895223292" duration="14720000" />
+      <workItem from="1545895223292" duration="20886000" />
     </task>
     <task id="LOCAL-00001" summary="added get access token as a string">
       <created>1545894733515</created>
@@ -203,11 +218,18 @@
       <option name="project" value="LOCAL" />
       <updated>1545906650880</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added B2C Request">
+      <created>1545910046768</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545910046768</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29524000" />
+    <option name="totallyTimeSpent" value="35690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -220,9 +242,10 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Duplicate detector" weight="0.329429" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.52562225" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.19472913" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32210836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -250,7 +273,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added get access token as a string" />
     <MESSAGE value="generating Security Credentials using mpesa certificate and password" />
-    <option name="LAST_COMMIT_MESSAGE" value="generating Security Credentials using mpesa certificate and password" />
+    <MESSAGE value="added B2C Request" />
+    <option name="LAST_COMMIT_MESSAGE" value="added B2C Request" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$PROJECT_DIR$/lib/gson-2.8.5.jar!/com/google/gson/Gson.class">
@@ -275,6 +299,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/gson-2.8.5.jar!/com/google/gson/stream/JsonWriter.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/authentication/PasswordUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
@@ -285,20 +312,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/gson-2.8.5.jar!/com/google/gson/stream/JsonWriter.class">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/authentication/Authentication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="51">
           <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MpesaAPIS/B2CRequest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="79" column="27" lean-forward="true" selection-start-line="79" selection-start-column="27" selection-end-line="79" selection-end-column="27" />
+        <state relative-caret-position="51">
+          <caret line="60" column="66" lean-forward="true" selection-start-line="60" selection-start-column="66" selection-end-line="60" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MpesaAPIS/B2BRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="69" column="79" selection-start-line="69" selection-start-column="79" selection-end-line="69" selection-end-column="79" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -307,8 +341,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Mpesa.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="125" selection-start-line="22" selection-start-column="125" selection-end-line="22" selection-end-column="125" />
+        <state relative-caret-position="261">
+          <caret line="31" column="39" lean-forward="true" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

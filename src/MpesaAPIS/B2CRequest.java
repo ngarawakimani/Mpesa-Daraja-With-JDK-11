@@ -55,7 +55,6 @@ public class B2CRequest {
   /*
   * make HTTP Request
   *
-  * @param String | data
   * @return String | response
   */
 
