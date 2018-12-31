@@ -27,7 +27,7 @@ public class Mpesa {
     makeB2CRequest = new B2CRequest().makeRequest("testapi",securityCredentials,"BusinessPayment","10","600332","254724088765","comments","http://ngara.co.ke/mpesa","http://ngara.co.ke/mpesa","http://ngara.co.ke/mpesa");
 
     //make B2B Request
-    makeB2BRequest = new B2BRequest().makeRequest("testapi", "his", securityCredentials, "BusinessPayment", "1", "4", "10", "600332", "600000", "comments", "http://ngara.co.ke/mpesa", "http://ngara.co.ke/mpesa");
+    makeB2BRequest = new B2BRequest().makeRequest("testapi", "his", securityCredentials, "BusinessPayBill", "1", "4", "10", "600332", "600000", "comments", "http://ngara.co.ke/mpesa", "http://ngara.co.ke/mpesa");
 
     System.out.println(makeB2BRequest);
   }

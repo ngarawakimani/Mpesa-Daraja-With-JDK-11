@@ -67,7 +67,7 @@ public class B2BRequest {
     HttpClient client = HttpClient.newHttpClient();
 
     HttpRequest request = HttpRequest.newBuilder()
-      .uri(URI.create("https://sandbox.safaricom.co.ke/safaricom/b2b/v1/paymentrequest"))
+      .uri(URI.create("https://sandbox.safaricom.co.ke/mpesa/b2b/v1/paymentrequest"))
       .header("Content-Type", "application/json")
       .setHeader("authorization", "Bearer " + authentication.getAccessToken())
       .setHeader("content-type", "application/json")
